@@ -1,0 +1,75 @@
+.card-Gryffindor {
+  color: #fff;
+}
+
+.text-Gryffindor {
+  color: #9d0208;
+}
+
+.Gryffindor {
+  border: 2px solid #9d0208;
+  border-radius: 5px;
+  width: 311px;
+  height: 353px;
+}
+
+.card-Ravenclaw {
+  color: #fff;
+}
+
+.text-Ravenclaw {
+  color: #0096c7;
+}
+
+.Ravenclaw {
+  border: 2px solid #0096c7;
+  border-radius: 5px;
+  width: 311px;
+  height: 353px;
+}
+
+.card-Slytherin {
+  color: #fff;
+}
+
+.text-Slytherin {
+  color: #007200;
+}
+
+.Slytherin {
+  border: 2px solid #007200;
+  border-radius: 5px;
+  width: 311px;
+  height: 353px;
+}
+
+.card-Hufflepuff {
+  color: #fff;
+}
+
+.text-Hufflepuff {
+  color: #f9e141;
+}
+
+.Hufflepuff {
+  border: 2px solid #f9e141;
+  border-radius: 5px;
+  width: 311px;
+  height: 353px;
+}
+
+button {
+  width: 300px;
+  height: 28px;
+  background: #f9e141;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  border: 1px solid transparent;
+}
+
+button:hover {
+  background: rgba(0, 0, 0, 0.25);
+  color: #f9e141;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
