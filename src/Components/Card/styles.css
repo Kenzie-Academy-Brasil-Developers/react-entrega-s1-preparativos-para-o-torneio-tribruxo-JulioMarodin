@@ -9,8 +9,8 @@
 .Gryffindor {
   border: 2px solid #9d0208;
   border-radius: 5px;
-  width: 311px;
-  height: 353px;
+  width: 250px;
+  height: 300px;
 }
 
 .card-Ravenclaw {
@@ -24,8 +24,8 @@
 .Ravenclaw {
   border: 2px solid #0096c7;
   border-radius: 5px;
-  width: 311px;
-  height: 353px;
+  width: 250px;
+  height: 300px;
 }
 
 .card-Slytherin {
@@ -39,8 +39,8 @@
 .Slytherin {
   border: 2px solid #007200;
   border-radius: 5px;
-  width: 311px;
-  height: 353px;
+  width: 250px;
+  height: 300px;
 }
 
 .card-Hufflepuff {
@@ -54,12 +54,12 @@
 .Hufflepuff {
   border: 2px solid #f9e141;
   border-radius: 5px;
-  width: 311px;
-  height: 353px;
+  width: 250px;
+  height: 300px;
 }
 
 button {
-  width: 300px;
+  width: 250px;
   height: 28px;
   background: #f9e141;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
