@@ -1,5 +1,6 @@
-body {
+/* body {
   background-color: #403d39;
+  box-sizing: border-box;
 }
 
 .App {
@@ -40,4 +41,4 @@ body {
   to {
     transform: rotate(360deg);
   }
-}
+} */

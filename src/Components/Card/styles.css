@@ -1,9 +1,11 @@
 .card-Gryffindor {
-  color: #fff;
+  color: #000;
+  text-align: center;
 }
 
 .text-Gryffindor {
   color: #9d0208;
+  text-align: center;
 }
 
 .Gryffindor {
@@ -14,11 +16,13 @@
 }
 
 .card-Ravenclaw {
-  color: #fff;
+  color: #000;
+  text-align: center;
 }
 
 .text-Ravenclaw {
   color: #0096c7;
+  text-align: center;
 }
 
 .Ravenclaw {
@@ -29,11 +33,13 @@
 }
 
 .card-Slytherin {
-  color: #fff;
+  color: #000;
+  text-align: center;
 }
 
 .text-Slytherin {
   color: #007200;
+  text-align: center;
 }
 
 .Slytherin {
@@ -44,11 +50,13 @@
 }
 
 .card-Hufflepuff {
-  color: #fff;
+  color: #000;
+  text-align: center;
 }
 
 .text-Hufflepuff {
   color: #f9e141;
+  text-align: center;
 }
 
 .Hufflepuff {
@@ -65,6 +73,8 @@ button {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
   border: 1px solid transparent;
+  margin-left: 50%;
+  transform: translateX(-50%);
 }
 
 button:hover {
@@ -72,4 +82,58 @@ button:hover {
   color: #f9e141;
   border: 1px solid rgba(0, 0, 0, 0.25);
   cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+  .cards-list {
+    display: flex;
+    justify-content: center;
+  }
+
+  .Gryffindor {
+    width: 150px;
+    height: 200px;
+  }
+
+  .Ravenclaw {
+    width: 150px;
+    height: 200px;
+  }
+
+  .Slytherin {
+    width: 150px;
+    height: 200px;
+  }
+
+  .Hufflepuff {
+    width: 150px;
+    height: 200px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .cards-list {
+    display: flex;
+    justify-content: center;
+  }
+
+  .Gryffindor {
+    width: 250px;
+    height: 300px;
+  }
+
+  .Ravenclaw {
+    width: 250px;
+    height: 300px;
+  }
+
+  .Slytherin {
+    width: 250px;
+    height: 300px;
+  }
+
+  .Hufflepuff {
+    width: 250px;
+    height: 300px;
+  }
 }
